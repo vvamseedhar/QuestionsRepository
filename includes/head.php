@@ -13,37 +13,7 @@ include("includes/confi.php");
     <!-- Le styles -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <style type="text/css">
-      body {
-        padding-top: 40px;
-        padding-bottom: 40px;
-        background-color: #f5f5f5;
-      }
-
-      .form-signin {
-        max-width: 300px;
-        padding: 19px 29px 29px;
-        margin: 0 auto 20px;
-        background-color: #fff;
-        border: 1px solid #e5e5e5;
-        -webkit-border-radius: 5px;
-           -moz-border-radius: 5px;
-                border-radius: 5px;
-        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
-           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
-                box-shadow: 0 1px 2px rgba(0,0,0,.05);
-      }
-      .form-signin .form-signin-heading,
-      .form-signin .checkbox {
-        margin-bottom: 10px;
-      }
-      .form-signin input[type="text"],
-      .form-signin input[type="password"] {
-        font-size: 16px;
-        height: auto;
-        margin-bottom: 15px;
-        padding: 7px 9px;
-      }
-
+      
     </style>
     <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 
@@ -74,7 +44,32 @@ include("includes/confi.php");
     <script src="assets/js/bootstrap-collapse.js"></script>
     <script src="assets/js/bootstrap-carousel.js"></script>
     <script src="assets/js/bootstrap-typeahead.js"></script>
-    <script src="assets/js/jquery.validate.js"></script>                                   
+    <script src="assets/js/jquery.validate.js"></script>   
+    
+    
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="assets/css/bootstrap-responsive.min.css">
+        <link type="text/css" rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+        <link type="text/css" rel="stylesheet" href="assets/css/calendar.css">
+        
+        <link rel="stylesheet" href="assets/css/theme.css">  
+        
+        
+        <script type="text/javascript" src="assets/js/lib/jquery.tablesorter.min.js"></script>
+        <script type="text/javascript" src="assets/js/lib/jquery.dataTables.min.js"></script>
+        <script type="text/javascript" src="assets/js/lib/DT_bootstrap.js"></script>
+        <script src="assets/js/lib/responsive-tables.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                metisTable();
+            });
+        </script>
+        
+        <script type="text/javascript" src="assets/js/main.js"></script>
+        
+        
+        <script type="text/javascript" src="assets/js/style-switcher.js"></script>
   </head>
 
   <body>

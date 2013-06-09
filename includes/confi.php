@@ -3,7 +3,7 @@ define('HOST','localhost');
 define('UN','root');
 define('PWD','');
 define('DB','question_repo');
-define('ROOT','http://localhost/questionsRepo');
+define('HTTP_ROOT','http://localhost/QuestionsRepository/index.php');
 
 session_start();
 

@@ -4,7 +4,7 @@ function db_exec($dbh,$sql,$skipauth=0,$skiphist=0,&$wantlastid=0)
 {
 global $authstatus,$userdata, $remaddr, $dblogsize,$errorstr,$errorbt;
 
-  if (!$skipauth && !$authstatus) {echo "<big><b>Not logged in</b></big><br>";return 0;}
+  //if (!$skipauth && !$authstatus) {echo "<big><b>Not logged in</b></big><br>";return 0;}
   if (stristr($sql,"insert ")) $skiphist=1; //for lastid function to work.
 
   //find user access
