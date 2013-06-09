@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Jun 06, 2013 at 08:34 PM
+-- Generation Time: Jun 09, 2013 at 08:09 AM
 -- Server version: 5.5.8
 -- PHP Version: 5.3.5
 
@@ -33,11 +33,12 @@ CREATE TABLE IF NOT EXISTS `users` (
   `user_status` int(1) DEFAULT NULL,
   `timestamp` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
 
 --
 -- Dumping data for table `users`
 --
 
 INSERT INTO `users` (`id`, `user_name`, `password`, `user_type`, `user_status`, `timestamp`) VALUES
-(1, 'admin', 'qwerty', 1, 1, NULL);
+(1, 'admin', 'qwerty', 1, 1, NULL),
+(2, 'admin1', 'qwerty', 2, 1, '1370630006');
